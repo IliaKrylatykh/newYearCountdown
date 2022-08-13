@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;600&family=Kdam+Thmor+Pro&family=Roboto&display=swap" rel="stylesheet"') * {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1550684376-efcbd6e3f031?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+  color: #fff;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: -10rem;
+}
+
+.countdawnContainer {
+  display: flex;
+}
+
+.bigText {
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0 2rem;
+}
+
+.countdawnEl {
+  text-align: center;
+}
+
+.countdawnEl span {
+  font-size: 1.5rem;
+  position: relative;
+  bottom: 0px;
+}
